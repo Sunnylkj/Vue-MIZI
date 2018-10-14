@@ -5,16 +5,16 @@
 </template>
 
 <script>
-  import Header from './components/public/Header.vue'
+import Header from './components/public/Header.vue'
 export default {
-  name: 'app',
+  name: 'App',
   components:{
     'app-showHeader':Header,
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
